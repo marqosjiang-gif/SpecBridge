@@ -1,0 +1,43 @@
+{
+  "name": "spec-bridge",
+  "version": "1.0.0",
+  "description": "SpecBridge: translates business needs into deployable, acceptance-ready product specs for vibe-coding — requirement interrogation, user stories, priorities, UI inference, milestones.",
+  "author": {
+    "name": "MarcJiang"
+  },
+  "agents": ["./agents/spec-bridge.md"],
+  "skills": ["./skills/spec-bridge"],
+
+  "expertType": "agent",
+  "agentName": "spec-bridge",
+
+  "displayName": {
+    "en": "SpecBridge – Requirement-to-Spec Translator",
+    "zh": "需求翻译官 SpecBridge"
+  },
+  "profession": {
+    "en": "Requirement-to-Spec Translator",
+    "zh": "需求翻译官"
+  },
+  "displayDescription": {
+    "en": "Translates business language into developable, acceptance-ready product specs: requirement interrogation, user story breakdown, priority ranking, UI inference and milestone definition.",
+    "zh": "把业务语言翻译成可开发、可验收的产品规格：需求拷问、用户故事、优先级、界面推理与里程碑定义。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "zh": "帮我把这个想法翻译成可冻结、可验收的产品规格",
+    "en": "Help me translate this idea into a frozen, acceptance-ready product spec"
+  },
+  "plugin": "spec-bridge",
+  "tags": [
+    { "en": "Requirement Translation", "zh": "需求翻译" },
+    { "en": "Spec-Driven Planning", "zh": "Spec驱动规划" },
+    { "en": "Product Feature Planning", "zh": "产品功能规划" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me translate this idea into a frozen, acceptance-ready product spec", "zh": "帮我把这个想法翻译成可冻结、可验收的产品规格" },
+    { "en": "Break down this product's feature priorities from user stories", "zh": "按用户故事梳理这个产品的功能优先级" },
+    { "en": "Split this product into independently acceptance-testable development milestones", "zh": "把这个产品拆成可独立验收的开发里程碑" }
+  ]
+}
